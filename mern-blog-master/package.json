@@ -6,7 +6,6 @@
   "scripts": {
     "server": "nodemon server",
     "client": "npm start --prefix client",
-    "build":"react-scripts build",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "keywords": [],
